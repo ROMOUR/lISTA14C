@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.2 on win32)" generated="2024-06-27T20:26:21.345860" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Operations" source="c:\Iterasys\Iterasys2\lISTA14C\__tests__\test_operations.robot">
+<test id="s1-t1" name="Run All Calculator Operations" line="5">
+<kw name="Test Addition">
+<msg time="2024-06-27T20:26:21.415240" level="FAIL">No keyword with name 'Test Addition' found.</msg>
+<status status="FAIL" start="2024-06-27T20:26:21.414245" elapsed="0.002991">No keyword with name 'Test Addition' found.</status>
+</kw>
+<kw name="Test Subtraction">
+<status status="NOT RUN" start="2024-06-27T20:26:21.419235" elapsed="0.000000"/>
+</kw>
+<kw name="Test Multiplication">
+<status status="NOT RUN" start="2024-06-27T20:26:21.420228" elapsed="0.000000"/>
+</kw>
+<kw name="Test Division">
+<status status="NOT RUN" start="2024-06-27T20:26:21.421225" elapsed="0.000000"/>
+</kw>
+<doc>Executa todas as operações básicas da calculadora</doc>
+<status status="FAIL" start="2024-06-27T20:26:21.410277" elapsed="0.011946">No keyword with name 'Test Addition' found.</status>
+</test>
+<status status="FAIL" start="2024-06-27T20:26:21.355030" elapsed="0.070185"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Operations">Test Operations</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-27T20:26:21.404270" level="ERROR">Error in file 'c:\Iterasys\Iterasys2\lISTA14C\__tests__\test_operations.robot' on line 2: Error in file 'c:\Iterasys\Iterasys2\lISTA14C\pages\calculator.robot' on line 4: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>
